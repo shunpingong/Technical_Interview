@@ -1,0 +1,13 @@
+record_id,use_case,timestamp,queue_time_sec,handle_time_sec,agent_id,resolved,abandoned,channel,team,atm_id,atm_capacity,atm_withdrawn,atm_topup_amt,doc_type,ocr_confidence,doc_errors,workforce_team,workforce_hours,anomaly_flag
+C1001,ContactCenter,2026-01-05 08:05:00,15,320,A13,True,False,Voice,Tier1,,,,,,,,,,0
+C1002,ContactCenter,2026-01-05 08:12:00,180,0,A07,False,True,Voice,Tier2,,,,,,,,,,1
+C1003,ContactCenter,2026-01-05 09:01:00,75,210,A02,True,False,Chat,Tier2,,,,,,,,,,0
+C1004,ContactCenter,2026-01-05 09:25:00,32,180,,True,False,Email,Tier1,,,,,,,,,,0
+C1005,ContactCenter,2026-01-05 10:10:00,132,400,A05,True,False,Voice,Tier3,,,,,,,,,,1
+W001,Workforce,2026-01-05 14:00:00,,,,,,,,,,,,,,,Ops,48,0
+W002,Workforce,2026-01-06 02:00:00,,,,,,,,,,,,,,,Ops,40,0
+ATM01,ATM,2026-01-05 09:00:00,,,,,,,,ATM01,200000,152000,50000,,,,,,1
+ATM02,ATM,2026-01-05 09:30:00,,,,,,,,ATM02,150000,72000,20000,,,,,,0
+ATM03,ATM,2026-01-06 04:15:00,,,,,,,,ATM03,180000,178000,45000,,,,,,1
+D1001,Document,2026-01-06 11:00:00,,,,,,,,,,,,loan_form,0.94,0,,,0
+D1002,Document,2026-01-06 11:20:00,,,,,,,,,,,,claims,0.67,3,,,1
