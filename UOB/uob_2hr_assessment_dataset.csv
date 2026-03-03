@@ -1,0 +1,28 @@
+event_id,use_case,timestamp,branch,team,channel,agent_id,customer_segment,queue_time_sec,handle_time_sec,resolved,abandoned,atm_id,atm_capacity,atm_withdrawn,doc_type,ocr_confidence,doc_errors,workforce_team,planned_staff,actual_staff,risk_label
+CC001,ContactCenter,2026-03-02 08:05:00,Orchard,Tier1,Voice,A11,Retail,25,310,1,0,,,,,,,,,,0
+CC002,ContactCenter,2026-03-02 08:12:00,Orchard,Tier1,Voice,A12,Retail,145,0,0,1,,,,,,,,,,1
+CC003,ContactCenter,2026-03-02 08:19:00,Tampines,Tier2,Chat,A03,SME,80,260,1,0,,,,,,,,,,0
+CC004,ContactCenter,2026-03-02 08:31:00,Tampines,Tier2,Voice,A04,SME,210,180,1,0,,,,,,,,,,1
+CC005,ContactCenter,2026-03-02 09:02:00,Jurong,Tier3,Voice,A15,Retail,"1,200",420,0,1,,,,,,,,,,1
+CC006,ContactCenter,2026-03-02 09:15:00,Jurong,Tier3,Email,A16,Corporate,65,-20,1,0,,,,,,,,,,1
+CC007,ContactCenter,2026-03-02 09:22:00,Orchard,Tier1,Voice,A11,Retail,95,300,0,1,,,,,,,,,,1
+CC007,ContactCenter,2026-03-02 09:24:00,Orchard,Tier1,Voice,A11,Retail,95,305,1,0,,,,,,,,,,0
+CC008,ContactCenter,2026-03-02 10:05:00,Tampines,Tier2,Chat,A05,SME,40,240,1,0,,,,,,,,,,0
+CC009,ContactCenter,2026-03-02 10:15:00,Tampines,Tier2,Voice,A06,SME,175,150,0,1,,,,,,,,,,1
+CC010,ContactCenter,03/02/2026 11:40,Orchard,Tier1,Email,A13,Corporate,55,330,1,0,,,,,,,,,,0
+CC011,ContactCenter,2026-03-02 11:52:00,Jurong,Tier3,Voice,A18,Retail,N/A,210,1,0,,,,,,,,,,0
+CC012,ContactCenter,2026-03-02 12:10:00,Jurong,Tier3,Voice,,Retail,130,280,1,0,,,,,,,,,,1
+CC013,ContactCenter,2026-03-02 12:30:00,Orchard,Tier1,Chat,A14,Corporate,88,260,1,0,,,,,,,,,,0
+CC014,ContactCenter,bad_timestamp,Tampines,Tier2,Voice,A07,SME,160,190,1,1,,,,,,,,,,1
+ATM001,ATM,2026-03-02 07:30:00,Orchard,,,,,,,,,ATM01,200000,172000,,,,,,,1
+ATM002,ATM,2026-03-02 07:45:00,Tampines,,,,,,,,,ATM02,150000,82000,,,,,,,0
+ATM003,ATM,2026-03-02 08:00:00,Jurong,,,,,,,,,ATM03,0,12000,,,,,,,1
+ATM004,ATM,2026-03-02 08:15:00,Orchard,,,,,,,,,ATM04,180000,181000,,,,,,,1
+WF001,Workforce,2026-03-02 06:00:00,Orchard,,,,,,,,,,,,,,CC_Ops,12,10,1
+WF002,Workforce,2026-03-02 06:00:00,Tampines,,,,,,,,,,,,,,CC_Ops,10,10,0
+WF003,Workforce,2026-03-02 06:00:00,Jurong,,,,,,,,,,,,,,CC_Ops,9,,1
+WF004,Workforce,2026-03-02 06:00:00,Orchard,,,,,,,,,,,,,,BackOffice,6,5,0
+DOC001,Document,2026-03-02 09:10:00,Orchard,,,,,,,,,,,,LoanForm,0.96,0,,,,0
+DOC002,Document,2026-03-02 09:25:00,Tampines,,,,,,,,,,,,Claims,0.62,4,,,,1
+DOC003,Document,2026-03-02 09:40:00,Jurong,,,,,,,,,,,,Onboarding,91%,1,,,,0
+DOC004,Document,2026-03-02 09:55:00,Orchard,,,,,,,,,,,,Trade,0.70,3,,,,1

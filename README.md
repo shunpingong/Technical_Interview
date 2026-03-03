@@ -1,3 +1,13 @@
-# Technical_Interview
+# Technical Interview Preparation Repository
 
-Inside this workspace you will find company-specific prep material for intelligent automation assessments. The `UOB/` folder carries the current notebook, dataset, and revision guide tailored to Python, Pandas, NumPy, and light ML scenarios that surface in their 2-hour on-site coding interviews.
+This repository contains company-specific technical interview preparation materials.
+
+## Folder Guide
+
+- `UOB/` — complete prep package for banking Intelligent Automation coding assessments (Python, Pandas, NumPy, scikit-learn).
+
+## What to use first
+
+1. Open `UOB/README.md` for the structured crash plan and mock scenarios.
+2. Use `UOB/UOB_sample_dataset.csv` for all practice exercises.
+3. Run `UOB/UOB_revision_guide.ipynb` for guided end-to-end revision.
