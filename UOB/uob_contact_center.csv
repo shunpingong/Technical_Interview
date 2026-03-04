@@ -1,0 +1,51 @@
+call_id,agent_id,agent_name,team,call_date,call_start,call_end,wait_time_sec,handle_time_sec,call_type,resolution_status,customer_segment,product,transfer_flag,survey_score,calls_today
+C001,A01,Alice Tan,Team_A,2024-01-15,09:02:00,09:14:30,45,750,Account Inquiry,Resolved,Mass,Savings Account,N,4,1
+C002,A02,Bob Lim,Team_B,2024-01-15,09:05:00,09:09:00,120,240,Card Dispute,Escalated,Priority,Credit Card,Y,2,1
+C003,A03,Carol Ng,Team_A,2024-01-15,09:10:00,09:22:00,30,720,Loan Inquiry,Resolved,Mass,Home Loan,N,5,1
+C004,A01,Alice Tan,Team_A,2024-01-15,09:20:00,09:35:00,60,900,Account Inquiry,Resolved,Mass,Current Account,N,4,2
+C005,A04,David Oh,Team_C,2024-01-15,09:15:00,09:16:00,200,60,Fraud Alert,Transferred,HNW,Investment,Y,1,1
+C006,A02,Bob Lim,Team_B,2024-01-15,09:30:00,09:45:00,90,900,Card Dispute,Unresolved,Mass,Credit Card,N,,2
+C007,A05,Eve Koh,Team_B,2024-01-15,09:45:00,09:52:00,30,420,General Inquiry,Resolved,Mass,Savings Account,N,5,1
+C008,A03,Carol Ng,Team_A,2024-01-15,10:00:00,10:18:00,45,1080,Loan Inquiry,Resolved,Priority,Home Loan,N,4,2
+C009,A06,Frank Wu,Team_C,2024-01-15,10:05:00,10:07:00,300,120,Fraud Alert,Escalated,HNW,Credit Card,Y,2,1
+C010,A01,Alice Tan,Team_A,2024-01-15,10:15:00,10:30:00,60,900,Account Inquiry,Resolved,Mass,Savings Account,N,5,3
+C011,A07,Grace Lee,Team_A,2024-01-16,09:00:00,09:12:00,20,720,Card Dispute,Resolved,Mass,Credit Card,N,4,1
+C012,A02,Bob Lim,Team_B,2024-01-16,09:05:00,09:08:00,150,180,General Inquiry,Resolved,Mass,Savings Account,N,3,1
+C013,A04,David Oh,Team_C,2024-01-16,09:10:00,09:25:00,80,900,Fraud Alert,Resolved,HNW,Investment,N,5,1
+C014,A05,Eve Koh,Team_B,2024-01-16,09:20:00,09:38:00,40,1080,Loan Inquiry,Resolved,Priority,Home Loan,N,5,2
+C015,A03,Carol Ng,Team_A,2024-01-16,09:30:00,09:42:00,55,720,Account Inquiry,Resolved,Mass,Current Account,N,4,1
+C016,A06,Frank Wu,Team_C,2024-01-16,09:35:00,09:36:00,500,60,Fraud Alert,Transferred,HNW,Credit Card,Y,,1
+C017,A01,Alice Tan,Team_A,2024-01-16,10:00:00,10:15:00,65,900,Account Inquiry,Resolved,Mass,Savings Account,N,4,2
+C018,A07,Grace Lee,Team_A,2024-01-16,10:10:00,10:22:00,35,720,Card Dispute,Resolved,Priority,Credit Card,N,5,2
+C019,A02,Bob Lim,Team_B,2024-01-16,10:20:00,10:50:00,90,1800,Loan Inquiry,Escalated,Mass,Home Loan,Y,1,2
+C020,A04,David Oh,Team_C,2024-01-16,10:30:00,10:45:00,70,900,Fraud Alert,Resolved,HNW,Investment,N,5,2
+C021,A05,Eve Koh,Team_B,2024-01-17,09:00:00,09:10:00,25,600,General Inquiry,Resolved,Mass,Savings Account,N,4,1
+C022,A03,Carol Ng,Team_A,2024-01-17,09:05:00,09:20:00,50,900,Account Inquiry,Resolved,Mass,Current Account,N,5,1
+C023,A06,Frank Wu,Team_C,2024-01-17,09:15:00,09:17:00,400,120,Fraud Alert,Transferred,HNW,Credit Card,Y,2,1
+C024,A01,Alice Tan,Team_A,2024-01-17,09:20:00,09:35:00,55,900,Account Inquiry,Resolved,Priority,Savings Account,N,4,1
+C025,A07,Grace Lee,Team_A,2024-01-17,09:30:00,09:42:00,30,720,Card Dispute,Resolved,Mass,Credit Card,N,5,1
+C026,A02,Bob Lim,Team_B,2024-01-17,09:45:00,10:00:00,100,900,Card Dispute,Unresolved,Mass,Credit Card,N,2,1
+C027,A04,David Oh,Team_C,2024-01-17,10:00:00,10:18:00,75,1080,Fraud Alert,Resolved,HNW,Investment,N,5,1
+C028,A05,Eve Koh,Team_B,2024-01-17,10:10:00,10:25:00,40,900,Loan Inquiry,Resolved,Priority,Home Loan,N,4,2
+C029,A03,Carol Ng,Team_A,2024-01-17,10:20:00,10:35:00,45,900,Account Inquiry,Resolved,Mass,Savings Account,N,5,2
+C030,A06,Frank Wu,Team_C,2024-01-17,10:30:00,10:31:00,350,60,Fraud Alert,Transferred,HNW,Credit Card,Y,,2
+C031,A01,Alice Tan,Team_A,2024-01-18,09:00:00,09:15:00,60,900,Account Inquiry,Resolved,Mass,Savings Account,N,4,1
+C032,A07,Grace Lee,Team_A,2024-01-18,09:05:00,09:17:00,25,720,Card Dispute,Resolved,Priority,Credit Card,N,5,1
+C033,A02,Bob Lim,Team_B,2024-01-18,09:10:00,09:50:00,180,2400,Loan Inquiry,Escalated,Mass,Home Loan,Y,1,1
+C034,A04,David Oh,Team_C,2024-01-18,09:20:00,09:35:00,80,900,Fraud Alert,Resolved,HNW,Investment,N,5,1
+C035,A05,Eve Koh,Team_B,2024-01-18,09:30:00,09:42:00,35,720,General Inquiry,Resolved,Mass,Savings Account,N,4,1
+C036,A03,Carol Ng,Team_A,2024-01-18,09:45:00,10:00:00,55,900,Account Inquiry,Resolved,Mass,Current Account,N,5,2
+C037,A06,Frank Wu,Team_C,2024-01-18,10:00:00,10:02:00,420,120,Fraud Alert,Transferred,HNW,Credit Card,Y,2,1
+C038,A01,Alice Tan,Team_A,2024-01-18,10:10:00,10:25:00,60,900,Account Inquiry,Resolved,Priority,Savings Account,N,4,2
+C039,A07,Grace Lee,Team_A,2024-01-18,10:20:00,10:32:00,30,720,Card Dispute,Resolved,Mass,Credit Card,N,5,2
+C040,A02,Bob Lim,Team_B,2024-01-18,10:30:00,10:45:00,120,900,Card Dispute,Unresolved,Priority,Credit Card,N,2,2
+C041,A05,Eve Koh,Team_B,2024-01-19,09:00:00,09:12:00,30,720,General Inquiry,Resolved,Mass,Savings Account,N,5,1
+C042,A03,Carol Ng,Team_A,2024-01-19,09:05:00,09:20:00,50,900,Account Inquiry,Resolved,Mass,Savings Account,N,4,1
+C043,A04,David Oh,Team_C,2024-01-19,09:10:00,09:28:00,70,1080,Fraud Alert,Resolved,HNW,Investment,N,5,1
+C044,A06,Frank Wu,Team_C,2024-01-19,09:15:00,09:16:30,380,90,Fraud Alert,Transferred,HNW,Credit Card,Y,,1
+C045,A01,Alice Tan,Team_A,2024-01-19,09:20:00,09:35:00,55,900,Account Inquiry,Resolved,Mass,Savings Account,N,4,2
+C046,A07,Grace Lee,Team_A,2024-01-19,09:30:00,09:42:00,25,720,Card Dispute,Resolved,Priority,Credit Card,N,5,2
+C047,A02,Bob Lim,Team_B,2024-01-19,09:45:00,10:15:00,150,1800,Loan Inquiry,Escalated,Mass,Home Loan,Y,1,1
+C048,A05,Eve Koh,Team_B,2024-01-19,10:00:00,10:15:00,40,900,Loan Inquiry,Resolved,Priority,Home Loan,N,4,2
+C049,A03,Carol Ng,Team_A,2024-01-19,10:10:00,10:22:00,45,720,Account Inquiry,Resolved,Mass,Current Account,N,5,3
+C050,A04,David Oh,Team_C,2024-01-19,10:20:00,10:38:00,65,1080,Fraud Alert,Resolved,HNW,Investment,N,5,2
